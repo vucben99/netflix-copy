@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background: url('bg2.jpg') no-repeat;
+    font-family: Helvetica, sans-serif;
+}
+
+#body-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+    height: 100px;
+}
+
+#logo {
+    height: 55px;
+    margin: 18px 0 0 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 350px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-email, #login-password, #login-button {
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+
+#login-email {
+    margin: 20px 0 15px 0;
+}
+
+#login-password {
+    margin-bottom: 40px;
+}
+
+#login-button {
+    margin-bottom: 10px;
+    background-color: #e50914;
+    font-size: 16px;
+    color: white;
+}
+
+#login-button:hover {
+    cursor: pointer;
+}
+
+#eml {
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
+
+#label-pw, #label-email {
+    font-size: 11px;
+    color: #8c8c8c;
+    position: relative;
+    left: 20px;
+}
+
+#label-email {
+    top: 40px;
+}
+
+#label-pw {
+    top: 20px;
+}
+
+footer {
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+}
